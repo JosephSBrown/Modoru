@@ -1,0 +1,54 @@
+.TopBanner {
+    background-color: black;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    color: white;
+    height: 85px;
+    z-index: 2;
+    display: flex;
+}
+
+.titletext {
+    font-size: 40px;
+    font-family: 'Fugaz One';
+    color: white;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: inline;
+}
+
+.webpagelogo {
+    display: inline;
+    margin-left: auto;
+}
+
+.centraldisplay {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    width: 40%;
+    height: 50%;
+    color: white;
+    font-family: 'fUGAZ oNE';
+    font-size: 30px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+body {
+    background-color: #1F1B24;
+}
+footer {
+    color: white;
+    font-family: 'Exo 2';
+    position: fixed;
+    bottom: 0;
+    left: 10;
+    font-size: 8px
+}
