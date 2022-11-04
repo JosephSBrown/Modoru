@@ -12,7 +12,6 @@
 
 .titletext {
     font-size: 40px;
-    font-family: 'Fugaz One';
     color: white;
     margin-right: auto;
     margin-top: auto;
@@ -32,8 +31,7 @@
     width: 40%;
     height: 50%;
     color: white;
-    font-family: 'fUGAZ oNE';
-    font-size: 30px;
+    font-size: 15px;
 }
 
 img {
@@ -42,13 +40,13 @@ img {
     object-fit: contain;
 }
 body {
-    background-color: #1F1B24;
+    background-color: #212529 !important;
+    /*#1F1B24 */
 }
 footer {
     color: white;
-    font-family: 'Exo 2';
     position: fixed;
     bottom: 0;
     left: 10;
-    font-size: 8px
+    font-size: 14px
 }
