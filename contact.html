@@ -27,9 +27,56 @@
 
     <body>
         <div>
-            <div class="TopBanner">
-                    <img class="webpagelogo" src="/Images/Moduro.png" alt="Modoru Logo">
-                    <h1 class="titletext">MODORU</h1>
+            <div class="w-screen h-24 bg-black flex-wrap align-middle justify-center items-center shadow-lg">
+                    <a href="./home.html" class="w-1/4 flex items-center justify-center hover:no-underline mx-auto">
+                        <img src="./Images/Moduro.png" class="mr-3 h-24" alt="Modoru Logo" />
+                        <span class="self-center text-4xl font-semibold whitespace-nowrap text-white hover:no-underline">MODORU</span>
+                    </a>
+                    <nav class="bg-neutral-900 w-screen drop-shadow-2xl flex justify-center items-center">
+                        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+                          <div class="relative flex h-16 items-center justify-between">
+                            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                              <!-- Mobile menu button-->
+                              <button type="button" class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+                                <span class="sr-only">Open main menu</span>
+                                <!--
+                                  Icon when menu is closed.
+                      
+                                  Heroicon name: outline/bars-3
+                      
+                                  Menu open: "hidden", Menu closed: "block"
+                                -->
+                                <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                                </svg>
+                                <!--
+                                  Icon when menu is open.
+                      
+                                  Heroicon name: outline/x-mark
+                      
+                                  Menu open: "block", Menu closed: "hidden"
+                                -->
+                                <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                                </svg>
+                              </button>
+                            </div>
+                            <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                              <div class="hidden sm:ml-6 sm:block">
+                                <div class="flex space-x-4">
+                                  <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                                  <a href="./home.html" class="hover:bg-gray-700 hover:no-underline text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                      
+                                  <a href="#" class="text-white hover:bg-gray-700 hover:text-white hover:no-underline px-3 py-2 rounded-md text-sm font-medium">Projects</a>
+                      
+                                  <a href="./Under Construction/under construction.html" class="text-white hover:bg-gray-700 hover:text-white hover:no-underline px-3 py-2 rounded-md text-sm font-medium">Testimonial</a>
+                      
+                                  <a href="./contact.html" class="bg-gray-700 text-white hover:text-white hover:no-underline px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                      </nav>
             </div>
 
             <div>
@@ -67,10 +114,24 @@
 
         </div>
 
-    </body>
+        <div class="p-4 shadow md:px-6 md:py-8 bg-neutral-900 w-screen">
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <a href="./home.html" class="flex items-center mb-4 sm:mb-0">
+                    <img src="./Images/Moduro.png" class="mr-3 h-20" alt="Modoru Logo" />
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap text-white hover:no-underline">MODORU</span>
+                </a>
+                <ul class="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 dark:text-white">
+                    <li><a href="./home.html" class="mr-4 text-white hover:bg-gray-700 hover:text-white hover:no-underline px-3 py-2 rounded-md">Home</a></li>
+                    <li><a href="#" class="mr-4 text-white hover:bg-gray-700 hover:text-white hover:no-underline px-3 py-2 rounded-md">About</a></li>
+                    <li><a href="#" class="mr-4 text-white hover:bg-gray-700 hover:text-white hover:no-underline px-3 py-2 rounded-md">Projects</a></li>
+                    <li><a href="#" class="mr-4 text-white hover:bg-gray-700 hover:text-white hover:no-underline px-3 py-2 rounded-md">Testimonials</a></li>
+                    <li><a href="./contact.html" class="mr-4 text-white hover:bg-gray-700 hover:text-white hover:no-underline px-3 py-2 rounded-md">Contact</a></li>
+                </ul>
+            </div>
+            <hr class="my-6 border-gray-200 w-11/12 sm:mx-auto dark:border-gray-700 lg:my-8" />
+            <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="https://flowbite.com/" class="hover:underline text-white">Modoru Software</a>.</span>
+        </div>
 
-    <footer>
-        <h1>Modoru Software © 2022</h1>
-    </footer>
+    </body>
 
 </html>
